@@ -9,10 +9,11 @@ NOTE : The given commands are for Git bash terminal. The commands are different 
 4. Install required packages from NLP/requirements.txt ( pip install -r NLP/requirements.txt )
 
 ### To run the chatbot with voice capabilities :
-1. Select python interpreter with path "venv\Scripts\python.exe" from your current directory
-2. Manually run NLP/chatbot/Chatbot.ipynb
+1. Navigate to NLP/chatbot/Chatbot.ipynb
+2. Select python interpreter with path "venv\Scripts\python.exe" from your current environment
+3. Manually run the file
 
 ### TO run the chatbot with webapp (without voice capabilities) :
-1. Run NLP/web UI/main.py manually or inside terminal run 'python "NLP/web UI/main.py"'
+1. Navigate and run NLP/web UI/main.py manually or inside terminal run 'python "NLP/web UI/main.py"'
 2. Then using browser navigate to "http://localhost:5000/"
 
