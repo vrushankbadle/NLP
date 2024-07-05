@@ -8,7 +8,7 @@ NOTE : The given commands are for Git bash terminal. The commands are different 
 3. Activate the virtual environment ( source venv/Scripts/activate )
 4. Install required packages from NLP/requirements.txt ( pip install -r NLP/requirements.txt )
 
-### To the chatbot with voice capabilities :
+### To run the chatbot with voice capabilities :
 1. Select python interpreter with path "venv\Scripts\python.exe" from your current directory
 2. Manually run NLP/chatbot/Chatbot.ipynb
 
