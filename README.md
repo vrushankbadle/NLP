@@ -13,7 +13,7 @@ NOTE : The given commands are for Git bash terminal. The commands are different 
 2. Select python interpreter with path "venv\Scripts\python.exe" from your current environment
 3. Manually run the file
 
-### TO run the chatbot with webapp (without voice capabilities) :
+### To run the chatbot with webapp (without voice capabilities) :
 1. Navigate and run NLP/web UI/main.py manually or inside terminal run 'python "NLP/web UI/main.py"'
 2. Then using browser navigate to "http://localhost:5000/"
 
