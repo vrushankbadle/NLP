@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": ["Sorry I could not understand."]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi", "Hey", "How are you", "Hello", "whats up" ],
+            "responses": [
+                "Hey, what's up ?",
+                "Hello, how's your day going ?",
+                "Hi there, what can I do for you?",
+                "Hi, how can I assist you today??"
+                ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for chatting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+                ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "I really appreciate it", "okay"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "items",
+                "products",
+                "sell",
+                "available",
+                "buy"
+                ],
+            "responses": [
+                "We sell coffee and tea",
+                "We have coffee and tea"
+                ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "can i use credit cards ?",
+                "how should i Pay ?",
+                "can i use Paypal ?",
+                "do you have cash on delivery ?",
+                "how can i make payment ?"
+                ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+                ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "Do you deliver ?", 
+                "What is the expected delivery time ?", 
+                "shipping", 
+                "When will i recieve my package ?"
+                ],
+            "responses": [
+                    "Shipping takes 2-3 days",
+                    "Delivery takes 2-3 days"
+                ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "joke",
+                "something funny",
+                "Do you know a joke?",
+                "funny joke",
+                "laugh"
+                ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+                ]
+        }
+        ]
+}
