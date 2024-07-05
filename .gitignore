@@ -2,3 +2,4 @@ __pycache__
 *.mp4
 acc_database.db
 new.txt
+venv

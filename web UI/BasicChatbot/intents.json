@@ -12,7 +12,7 @@
                 "Hey, what's up ?",
                 "Hello, how's your day going ?",
                 "Hi there, what can I do for you?",
-                "Hi there, how can I help?"
+                "Hi, how can I assist you today??"
                 ]
         },
         {
@@ -46,11 +46,11 @@
         {
             "tag": "payments",
             "patterns": [
-                "credit cards",
-                "Pay",
-                "Paypal",
-                "cash on delivery",
-                "payment"
+                "can i use credit cards ?",
+                "how should i Pay ?",
+                "can i use Paypal ?",
+                "do you have cash on delivery ?",
+                "how can i make payment ?"
                 ],
             "responses": [
                 "We accept VISA, Mastercard and Paypal",
@@ -60,11 +60,10 @@
         {
             "tag": "delivery",
             "patterns": [
-                "deliver", 
-                "delivery", 
+                "Do you deliver ?", 
+                "What is the expected delivery time ?", 
                 "shipping", 
-                "parcel", 
-                "expected"
+                "When will i recieve my package ?"
                 ],
             "responses": [
                     "Shipping takes 2-3 days",
@@ -78,7 +77,7 @@
                 "something funny",
                 "Do you know a joke?",
                 "funny joke",
-                "Make me laugh"
+                "laugh"
                 ],
             "responses": [
                 "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
